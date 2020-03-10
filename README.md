@@ -40,10 +40,10 @@ To run the kernelized GLM on regression dataset [mauna_loa], type the following 
 ### Running GLM with RBF (Q4)
 Type the following in the python console:
 ```
->>> run_Q3()
+>>> run_Q4()
 ```
 
-### Running Greedy Algorithm (Q4)
+### Running Greedy Algorithm (Q5)
 Type the following in the python console:
 ```
 >>> run_Q5()
