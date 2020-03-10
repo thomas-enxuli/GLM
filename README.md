@@ -1,4 +1,4 @@
-# K-NN Algorithm and Linear Regression Model
+# Generalized Linear Model (GLM)
 
 
 ## Getting Started
@@ -19,36 +19,34 @@ $ pip install -r requirements.txt
 ### Starting the Script
 To run the script, go to the root directory and run `python` in cmd/terminal and type the following in the python console:
 ```
->>> from knn_main import *
+>>> from glm_main import *
 ```
 *Note: ensure that python refers to Python 3.6.x*
 
-### Running K-NN on Regression Dataset (Q1)
-To run the k-nn algorithm on regression dataset [mauna_loa,rosenbrock,pumadyn32nm], type the following in the python console:
+### Running GLM on Regression Dataset (Q2)
+To run the GLM on regression dataset [mauna_loa], type the following in the python console:
 ```
->>> run_Q1(k_range=[1,31])
+>>> run_Q2()
 ```
-*Note: k_range takes a list containing lower bound and upper bound of k values*
 
 
-### Running K-NN on Classification Dataset (Q2)
-To run the k-nn algorithm on classification dataset [iris,mnist_small], type the following in the python console:
+### Running Kernelized GLM on Regression Dataset (Q3)
+To run the kernelized GLM on regression dataset [mauna_loa], type the following in the python console:
 ```
->>> run_Q2(k_range=[1,31])
+>>> run_Q3()
 ```
-*Note: k_range takes a list containing lower bound and upper bound of k values*
 
-### Running K-NN with KD Tree and Compare Performance (Q3)
+
+### Running GLM with RBF (Q4)
 Type the following in the python console:
 ```
->>> run_Q3(d=list(range(2,10)))
+>>> run_Q3()
 ```
-*Note: d takes a list containing values of dimension numbers*
 
-### Running Linear Regression with SVD on All Dataset (Q4)
+### Running Greedy Algorithm (Q4)
 Type the following in the python console:
 ```
->>> run_Q4()
+>>> run_Q5()
 ```
 
 
@@ -56,5 +54,3 @@ Type the following in the python console:
 
 ## Built With
 * [numpy](https://numpy.org/) - all variables are numpy arrays
-
-* [sklearn](https://scikit-learn.org/stable/) - kd tree data structure
